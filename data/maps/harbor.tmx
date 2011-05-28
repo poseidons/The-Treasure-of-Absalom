@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="78" height="53" tilewidth="24" tileheight="24">
+ <tileset firstgid="1" name="Harbor" tilewidth="24" tileheight="24">
+  <image source="harbor.png" trans="19aa79" width="1296" height="3000"/>
+  <tile id="36">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="16"/>
+    <property name="sheetY" value="1"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="17"/>
+    <property name="sheetY" value="1"/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="16"/>
+    <property name="sheetY" value="2"/>
+   </properties>
+  </tile>
+  <tile id="125">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="17"/>
+    <property name="sheetY" value="2"/>
+   </properties>
+  </tile>
+  <tile id="178">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="16"/>
+    <property name="sheetY" value="3"/>
+   </properties>
+  </tile>
+  <tile id="649">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="650">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="651">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="703">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="704">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="705">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="756">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="757">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="758">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="759">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="810">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="811">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="812">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="813">
+   <properties>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1134">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="0"/>
+    <property name="sheetY" value="21"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1135">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="1"/>
+    <property name="sheetY" value="21"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1136">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="2"/>
+    <property name="sheetY" value="21"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1137">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="3"/>
+    <property name="sheetY" value="21"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1188">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="0"/>
+    <property name="sheetY" value="22"/>
+   </properties>
+  </tile>
+  <tile id="1189">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="1"/>
+    <property name="sheetY" value="22"/>
+   </properties>
+  </tile>
+  <tile id="1190">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="2"/>
+    <property name="sheetY" value="22"/>
+   </properties>
+  </tile>
+  <tile id="1191">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="3"/>
+    <property name="sheetY" value="22"/>
+   </properties>
+  </tile>
+  <tile id="1242">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="0"/>
+    <property name="sheetY" value="23"/>
+   </properties>
+  </tile>
+  <tile id="1243">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="1"/>
+    <property name="sheetY" value="23"/>
+   </properties>
+  </tile>
+  <tile id="1244">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="2"/>
+    <property name="sheetY" value="23"/>
+   </properties>
+  </tile>
+  <tile id="1245">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="3"/>
+    <property name="sheetY" value="23"/>
+   </properties>
+  </tile>
+  <tile id="1296">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="0"/>
+    <property name="sheetY" value="24"/>
+   </properties>
+  </tile>
+  <tile id="1297">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="1"/>
+    <property name="sheetY" value="24"/>
+   </properties>
+  </tile>
+  <tile id="1304">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="2"/>
+    <property name="frame2" value="4"/>
+    <property name="frame3" value="6"/>
+    <property name="frame4" value="8"/>
+    <property name="frame5" value="10"/>
+    <property name="frame6" value="12"/>
+    <property name="frame7" value="14"/>
+    <property name="frame8" value="16"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="8"/>
+    <property name="sheetY" value="24"/>
+   </properties>
+  </tile>
+  <tile id="1305">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="2"/>
+    <property name="frame2" value="4"/>
+    <property name="frame3" value="6"/>
+    <property name="frame4" value="8"/>
+    <property name="frame5" value="10"/>
+    <property name="frame6" value="12"/>
+    <property name="frame7" value="14"/>
+    <property name="frame8" value="16"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="9"/>
+    <property name="sheetY" value="24"/>
+   </properties>
+  </tile>
+  <tile id="1350">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="0"/>
+    <property name="sheetY" value="25"/>
+   </properties>
+  </tile>
+  <tile id="1351">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="1"/>
+    <property name="sheetY" value="25"/>
+   </properties>
+  </tile>
+  <tile id="1358">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="2"/>
+    <property name="frame2" value="4"/>
+    <property name="frame3" value="6"/>
+    <property name="frame4" value="8"/>
+    <property name="frame5" value="10"/>
+    <property name="frame6" value="12"/>
+    <property name="frame7" value="14"/>
+    <property name="frame8" value="16"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="8"/>
+    <property name="sheetY" value="25"/>
+   </properties>
+  </tile>
+  <tile id="1359">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="2"/>
+    <property name="frame2" value="4"/>
+    <property name="frame3" value="6"/>
+    <property name="frame4" value="8"/>
+    <property name="frame5" value="10"/>
+    <property name="frame6" value="12"/>
+    <property name="frame7" value="14"/>
+    <property name="frame8" value="16"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="9"/>
+    <property name="sheetY" value="25"/>
+   </properties>
+  </tile>
+  <tile id="1404">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="0"/>
+    <property name="sheetY" value="26"/>
+   </properties>
+  </tile>
+  <tile id="1405">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="1"/>
+    <property name="sheetY" value="26"/>
+   </properties>
+  </tile>
+  <tile id="1412">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="frame5" value="8"/>
+    <property name="frame6" value="10"/>
+    <property name="frame7" value="12"/>
+    <property name="frame8" value="14"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="8"/>
+    <property name="sheetY" value="26"/>
+   </properties>
+  </tile>
+  <tile id="1413">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="frame5" value="8"/>
+    <property name="frame6" value="10"/>
+    <property name="frame7" value="12"/>
+    <property name="frame8" value="14"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="9"/>
+    <property name="sheetY" value="26"/>
+   </properties>
+  </tile>
+  <tile id="1458">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="0"/>
+    <property name="sheetY" value="27"/>
+   </properties>
+  </tile>
+  <tile id="1459">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="1"/>
+    <property name="sheetY" value="27"/>
+   </properties>
+  </tile>
+  <tile id="1466">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="frame5" value="8"/>
+    <property name="frame6" value="10"/>
+    <property name="frame7" value="12"/>
+    <property name="frame8" value="14"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="8"/>
+    <property name="sheetY" value="27"/>
+   </properties>
+  </tile>
+  <tile id="1467">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="frame5" value="8"/>
+    <property name="frame6" value="10"/>
+    <property name="frame7" value="12"/>
+    <property name="frame8" value="14"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="9"/>
+    <property name="sheetY" value="27"/>
+   </properties>
+  </tile>
+  <tile id="1512">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="0"/>
+    <property name="sheetY" value="28"/>
+   </properties>
+  </tile>
+  <tile id="1513">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="1"/>
+    <property name="sheetY" value="28"/>
+   </properties>
+  </tile>
+  <tile id="1520">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="frame5" value="8"/>
+    <property name="frame6" value="10"/>
+    <property name="frame7" value="12"/>
+    <property name="frame8" value="14"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="8"/>
+    <property name="sheetY" value="28"/>
+   </properties>
+  </tile>
+  <tile id="1521">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="frame5" value="8"/>
+    <property name="frame6" value="10"/>
+    <property name="frame7" value="12"/>
+    <property name="frame8" value="14"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="9"/>
+    <property name="sheetY" value="28"/>
+   </properties>
+  </tile>
+  <tile id="1566">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="0"/>
+    <property name="sheetY" value="29"/>
+   </properties>
+  </tile>
+  <tile id="1567">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="1"/>
+    <property name="sheetY" value="29"/>
+   </properties>
+  </tile>
+  <tile id="1574">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="frame5" value="8"/>
+    <property name="frame6" value="10"/>
+    <property name="frame7" value="12"/>
+    <property name="frame8" value="14"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="8"/>
+    <property name="sheetY" value="29"/>
+   </properties>
+  </tile>
+  <tile id="1575">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="frame5" value="8"/>
+    <property name="frame6" value="10"/>
+    <property name="frame7" value="12"/>
+    <property name="frame8" value="14"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="9"/>
+    <property name="sheetY" value="29"/>
+   </properties>
+  </tile>
+  <tile id="1620">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="0"/>
+    <property name="sheetY" value="30"/>
+   </properties>
+  </tile>
+  <tile id="1621">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="1"/>
+    <property name="sheetY" value="30"/>
+   </properties>
+  </tile>
+  <tile id="1628">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="2"/>
+    <property name="frame2" value="4"/>
+    <property name="frame3" value="6"/>
+    <property name="frame4" value="8"/>
+    <property name="frame5" value="10"/>
+    <property name="frame6" value="12"/>
+    <property name="frame7" value="14"/>
+    <property name="frame8" value="16"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="8"/>
+    <property name="sheetY" value="30"/>
+   </properties>
+  </tile>
+  <tile id="1629">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="2"/>
+    <property name="frame2" value="4"/>
+    <property name="frame3" value="6"/>
+    <property name="frame4" value="8"/>
+    <property name="frame5" value="10"/>
+    <property name="frame6" value="12"/>
+    <property name="frame7" value="14"/>
+    <property name="frame8" value="16"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="9"/>
+    <property name="sheetY" value="30"/>
+   </properties>
+  </tile>
+  <tile id="1674">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="0"/>
+    <property name="sheetY" value="31"/>
+   </properties>
+  </tile>
+  <tile id="1675">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="frame3" value="4"/>
+    <property name="frame4" value="6"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="1"/>
+    <property name="sheetY" value="31"/>
+   </properties>
+  </tile>
+  <tile id="1682">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="2"/>
+    <property name="frame2" value="4"/>
+    <property name="frame3" value="6"/>
+    <property name="frame4" value="8"/>
+    <property name="frame5" value="10"/>
+    <property name="frame6" value="12"/>
+    <property name="frame7" value="14"/>
+    <property name="frame8" value="16"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="8"/>
+    <property name="sheetY" value="31"/>
+   </properties>
+  </tile>
+  <tile id="1683">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="50"/>
+    <property name="frame1" value="2"/>
+    <property name="frame2" value="4"/>
+    <property name="frame3" value="6"/>
+    <property name="frame4" value="8"/>
+    <property name="frame5" value="10"/>
+    <property name="frame6" value="12"/>
+    <property name="frame7" value="14"/>
+    <property name="frame8" value="16"/>
+    <property name="numFrames" value="8"/>
+    <property name="sheetX" value="9"/>
+    <property name="sheetY" value="31"/>
+   </properties>
+  </tile>
+  <tile id="2299">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="3"/>
+    <property name="frame2" value="6"/>
+    <property name="frame3" value="9"/>
+    <property name="frame4" value="12"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="31"/>
+    <property name="sheetY" value="42"/>
+   </properties>
+  </tile>
+  <tile id="2300">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="3"/>
+    <property name="frame2" value="6"/>
+    <property name="frame3" value="9"/>
+    <property name="frame4" value="12"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="32"/>
+    <property name="sheetY" value="42"/>
+   </properties>
+  </tile>
+  <tile id="2301">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="3"/>
+    <property name="frame2" value="6"/>
+    <property name="frame3" value="9"/>
+    <property name="frame4" value="12"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="33"/>
+    <property name="sheetY" value="42"/>
+   </properties>
+  </tile>
+  <tile id="2818">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="10"/>
+    <property name="sheetY" value="52"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2819">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="11"/>
+    <property name="sheetY" value="52"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2872">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="10"/>
+    <property name="sheetY" value="53"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2873">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="11"/>
+    <property name="sheetY" value="53"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2874">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="12"/>
+    <property name="sheetY" value="53"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2927">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="11"/>
+    <property name="sheetY" value="54"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2928">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="12"/>
+    <property name="sheetY" value="54"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2929">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="13"/>
+    <property name="sheetY" value="54"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2930">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="14"/>
+    <property name="sheetY" value="54"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2931">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="15"/>
+    <property name="sheetY" value="54"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2932">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="16"/>
+    <property name="sheetY" value="54"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2933">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="17"/>
+    <property name="sheetY" value="54"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2982">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="12"/>
+    <property name="sheetY" value="55"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2983">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="13"/>
+    <property name="sheetY" value="55"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2984">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="14"/>
+    <property name="sheetY" value="55"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2985">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="15"/>
+    <property name="sheetY" value="55"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2986">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="16"/>
+    <property name="sheetY" value="55"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2987">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="17"/>
+    <property name="sheetY" value="55"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3093">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="15"/>
+    <property name="sheetY" value="57"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3094">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="16"/>
+    <property name="sheetY" value="57"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3095">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="17"/>
+    <property name="sheetY" value="57"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3142">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="10"/>
+    <property name="sheetY" value="58"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3143">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="11"/>
+    <property name="sheetY" value="58"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3144">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="12"/>
+    <property name="sheetY" value="58"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3145">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="13"/>
+    <property name="sheetY" value="58"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3146">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="14"/>
+    <property name="sheetY" value="58"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3147">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="15"/>
+    <property name="sheetY" value="58"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3148">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="16"/>
+    <property name="sheetY" value="58"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3196">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="10"/>
+    <property name="sheetY" value="59"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3197">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="11"/>
+    <property name="sheetY" value="59"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3198">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="12"/>
+    <property name="sheetY" value="59"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3199">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="13"/>
+    <property name="sheetY" value="59"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3200">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="8"/>
+    <property name="frame2" value="16"/>
+    <property name="frame3" value="24"/>
+    <property name="frame4" value="32"/>
+    <property name="numFrames" value="4"/>
+    <property name="sheetX" value="14"/>
+    <property name="sheetY" value="59"/>
+    <property name="transparent" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3411">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="frame5" value="20"/>
+    <property name="numFrames" value="5"/>
+    <property name="sheetX" value="9"/>
+    <property name="sheetY" value="63"/>
+   </properties>
+  </tile>
+  <tile id="3412">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="frame5" value="20"/>
+    <property name="numFrames" value="5"/>
+    <property name="sheetX" value="10"/>
+    <property name="sheetY" value="63"/>
+   </properties>
+  </tile>
+  <tile id="3413">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="frame5" value="20"/>
+    <property name="numFrames" value="5"/>
+    <property name="sheetX" value="11"/>
+    <property name="sheetY" value="63"/>
+   </properties>
+  </tile>
+  <tile id="3465">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="frame5" value="20"/>
+    <property name="numFrames" value="5"/>
+    <property name="sheetX" value="9"/>
+    <property name="sheetY" value="64"/>
+   </properties>
+  </tile>
+  <tile id="3466">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="frame5" value="20"/>
+    <property name="numFrames" value="5"/>
+    <property name="sheetX" value="10"/>
+    <property name="sheetY" value="64"/>
+   </properties>
+  </tile>
+  <tile id="3467">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="4"/>
+    <property name="frame2" value="8"/>
+    <property name="frame3" value="12"/>
+    <property name="frame4" value="16"/>
+    <property name="frame5" value="20"/>
+    <property name="numFrames" value="5"/>
+    <property name="sheetX" value="11"/>
+    <property name="sheetY" value="64"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Collision" width="78" height="53">
+  <properties>
+   <property name="underPlayer" value="1"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WUY7DIAxE24/e/2J7qP2NKggz43EMlJGirbK2MS/G5vU6Wl1v8mHj7SqGFcqNsV9V3/t0c9u17pg9sdyUNVYRy03pgb/ObeY1Wmsqc42Jny12Zjtyyq57ZC48tddWTnc2lf3CdW+Ygdsoxmzc3GcdqeHWORn5Os9MlFtGf4xy68UbvX+KW8/e1f9Ybiif3nu2PzB+iK2rt7BrRIVyU/zu7JhZhvSZCm6uOY2et9E+1PMw+n+kD7g04sb43dlE6zpq69Zdr1XrrBeb9UFss+qOObtqj0RsV+TmyiN6Z8n8Lm65uLnuFMrsYuK7NBs3ZW2nDxPbkYfK7YkaOtzW5eaIc/VRHmUdt9jezMRB1n6KG5J/NI/ve1UWt2wxrN3fZXVu17+Mj7IO65M166OakZuj72Rrhnmd0a+zFMlN8WW4td7PogpuCJ8V6u36W+HWioX6qv7VOtw0HW6aovepCDdHLlU63DQ5c1W59ealY5665nHmbHdy68Vi8nfWNHPvVOaEYque+dE9rxUvixtj77JFuTHfsRcvwo25j4/snbWJcFPjR7nNIhc3tgb/PqDxpEK4uOfpDlLPIdIjdmN1VWSfCLdd5a6PX+R2fRd52Dgrqjrv6vVVVeddvb6q6Jl0PCuqmhnD7R+O6IGUmEAAAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 0" width="78" height="53">
+  <properties>
+   <property name="underPlayer" value="1"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9WbB7AV1RnHt9yHRkCQppBiSZQilplEAVvkIQ8siSZKSagWmEkUsYNSNKZoApqgUqKmkGYHIliSGU3sDU3VWCgqpIglUbCk57+z9/f2vG/33L0PIvPemfnNuefu7tnds9/+v++UXRAHwVViQTXfW+wjVgRBsCwKguViRY18uGhy8hFipDhWHCc6qp5OQcuc325if3u8LR8tjnHyy3Stl4t5Yr64R9wrfiF+GWfn+kMYBM+K4aJJPC2eEevFi2KtWOeUN4iN4lhxnHhIPCxeaQiCTeIR1f1onOXjxHixQde0UfxR/KlGPkvMdvI5Yq74krhUDNU1NwZZzn00mnZjf3u8LV8sLnFy2uk+cb/YLLaIt8U7cXbeztp35+Q6de+zRUf97iR6il6iu+jhlHuLPsl5te+l4p/iX2L3DkGwR4f0nC5XiCtFb9FHfFB8qEb+YfGRuNiGihL38VEd8zHxTfEtcZeu8W6hRxnosoKDxMFiqfiB2EHsmNy/2Fm8qWPectrJ5rSbtfef6t5vFyvFKnGHuLOgTH6XuNtpt1G6uNEF7faAeFAcL04QnxGfrZGfKE5ynmu96XM65vPiIfGweF1t9oY4VNsOE6eLM5L3SzwrDhdHiGHiKNG3EgT9RH8xoCDfVwys5O39z7r3vyTvm9gkXhWvFZTJXxdviH11bQPFPLXZ/A7lz+sFHbPGec8pWx1AX9BJkq/elbqGVVHe3qx9fEDsJM4V54lZYraTo6vn6xouCGvrapKja8+J5wvux3d/2Bv6Vva8dtE1dHPec8pWB9AXdJLkq/cVHbMpytubtY9PiiPFTeLm5D0Ttzs5unqLru3W0K+rzfpa1bUuomuUvx/f/Vl9s36E9n5JvFzwnvM8eb7H6/cJkf99pN5uonvo1010Evty/S7a1kV0DTINtNs719jH5vhpyvhnW56h3zODzJ+ib9aP0N67it2i/HvO8+T5flW/v1aj3ah3pPY9OvTrJjqJfQ11bARtGy6agkwD7fZhNfaxOX6aMv7Zlm/T72VOu6FvvOe++AX9IKEz+DXiIuyU+pqPD9N4aa64OMzvb893oeq8SJys36eILmrLrmKQrmFwVJ4PEYeIs1XHOYFfJ7l+7NNXXhqk/tzqG++5L35BP2gzdAa/RlyEnVJf8/FhGi/h4+3+9nzLgzTmXqx9lyTtrjZrEtO07cyoPJ8uzhI3qI4bA79O0j7YJ/djy/hzq2+TpNGTK3n/gr59R8d812l3zoddkGw8T8Le9tR/e0X5ON2ej/rx+6P03+jEH+kZdxMd1IY7iB0TLRQV0RDn/09spUgHuW7ax94Pfpoy+mbjt4Vqs0WVvH9B336nY37vtDvnwy6WV9vHxvNBdTv2Nkb/jY3ycbo9H/WfrN+niHk6dr4YoUYYKQ5Tmxwujki0UBwiDo3z/ye2UqSDXPcs51107wc/TRl9o93Qt2srKYvFkkpWFzn2xnOwOsBzoXyAONCxw7L4HD9N4jwn6r+TxH3ifnGW2uJscY44V5wnzo/9/yd1JBp3kNq+c2J/cap/p6qu08K0fXgXi+6LMrZq9Y12e1I8VcnqIsfeeA5WB3gulKeIqU67lcXn+OmgWhfn+br++4Z4V7wnfqL7vkHcKG4SN4tbYv//SR2Jxp2uthqW2F+c6t+3Vde1Yep/eeZF90UZW7X6RrtNEVMr+efusy+7ndyX0D2rg58Sn44yLSIWQ9/2E/uLNbrvtWKdWC9eFC/Fxf8nevem6nhLbA5S3Rujex4bZvW6cd/W6Bvtdp243mm3Mvuy28ltQv/QPauDX45S/UCLiMXQt1PFaYkG6tq6ix6ip+gldq0U/5/oXV/dYz/RP0x17wrlV4ZZvY3Oudz74vmX6dsTOs/qSj7nvbXPAbsYJAY7//uSjaNsTjzFfpTfFe+Jf+ta/+P4U/zzLmHaB2lxLkfnJmjbRDEpTMsPKH/QsTfOb9+b5vgqaPkeWX0LRVSQx6LSkLcv7ILE/75k4yibE0+xH+X9dI37i4/rHj8RZf4U/zwiTPsgLc7l6NzV2naNWBim5b8r/4djb5y/0bQXdmLfI6tvxFH0N238XqZbZYnrsHZHf+Dgaqxvc+L+L4gvihd0zJogs7Okr9sjif88Gpdo38vVPNl2gOo4MMrsDd2aadoLO6FMbvWNOIr+po3ffbpVb+I6rN3R3zujGuvbnLj/e+L7UdZe2FnS1z0meV89Gpdo327VPNk2RXVMjVrqG5rgtpeN38itvvEc14p1Qb6MH21tsn7Yxu7N4wsl/YGOolOctducMO3rMh6I3nC8r3yZ9r3c0bfEztCEFQXXa8tW36zd2/LWJuuHbezePL4Q1u4PDBWNcWZnxMuMB6I3HO8r36N973XaLbkO4pBa/VPKVt/KxtmJ58v8JsnGP5StvtFuZf2BGWJmnNkZzxV7Q2/mqI3mNvjLm7XvFvG2zv1OkOobcUjR9doy/p36ysbZiefL/CbJ6gNlq288v7L+wG1iWZw9T+wOe0NvVqqNVjX4y/1lYwMSv6BjBobpe2rHPYv0jTL+nfp884eUGaew/VCb7PPxJWtvZf2BDWJjnOnG1urbJJ1jcpT2V/HZ9YznDTL+nfp884eUGaew/VCb7PPxJWtvZf2B3qJPJfOfW6tvC3WORVHaX8Vn1zOeN834d+rzJfqR+BXf+2//Z16Ueek99XuvOD+PgL09Ih4N/f0Bn79qrb6FOmck4jgds+N8ru/eydnOmB77sR3/7kv0I/ErZfEN/zMvSjuNEWPj/DwC9kY/ytcfwM5subX6NkjnHCyGxOmYHedzffeRznbG9NiP7fh3O6+0u9hD3KE2uzOq8cJ5EvOi2BvzorYfgl+jH0XcaHUsmZO4pKDcWn2bpns6U0yP/b77gjq249/tvNIoMVq8qnt5bSvajXlRngPzorYfgl+jH8V7aHXMFx+1Vt9+qGv5kfhx7Pfdt9axHf9ux/l985v1Jt+8KONtzLfi1xh/tfEZdlcWV9arb8/pGp6Py/uzZdvx73ac3ze/WW/yzYsy3sZ8K36N8Vcbn2F3ZXFlvfrWRT65a6W8P1u2Hf9u15f55kPrTb55qp+p7p9H+XV29HvGaZ/xBf6yXv3a3mW7vsw3H1pv8s1T/VX8Lcqvs2N8YoHa6KoCf1mvfm3vMvOn5EN1D41Rfj7HznvTNyF+s+OjjG+hZ3a9krU34jjrL+vVr+1dZv6UfIbuYWaUn88hZ96bPjHxG/uTMy6Pntn1StbeiOOsv6xXv7Z32TevQD/UjvvbcQ3sbqFY5GzH3nzrIlkHh70Rx7UXffPNKwwP0n6oHfe34xrY3RNitbMde/Oti2QdHPZGHNde9A1/yvwC+mTneUiUrR36xtt86xvxs9gb4+HtRd/wp8wvoE92fpRE2dqhb7zNt74RP4u9PS2eidqPvvn6odhVX2lQP3G1uCbOz+v7kl0f51tfh70Rh9BfWKxjlwRtR89s2dcPxa4mqK0misfE43F+Xt+XOJ540Le+DnsjDqG/8KSOfSpoQ3pmyqzntjnjGI+pjR53/O2vxK8rmf35cuySeJB1m3ZdCPZGHGLHc9uMnpky67ltzjjGfxPbasj8bYPo0JDZny/HLokHWbfprgv5imNvxCF2PLet6Jktl30Hg05hJ679lbG6ShIPMj9vx+9tsvNVbUXPbLnsOxh0Cjtx7a+MqEoSD7Je147f22Tnq9qKntmyHfegbP0i/Ydhutejovx6Nt93fOgY84/NdlV9fja1F32z4x6UrV8cHqT9hwu17aIov57N9x0fOsb8Y7NdVZ+fTU3tRN/cucQh7yP1ptnV97Sp2m7bqkfWvv9f+ubOJU5/H6k38Z7Orva3ytb9bEuZ3+uD1uubu/6HNi36HsBdL7slKP5+wJ1r9H1X0LFkzD23TiusPY+6LWV+9xS9wtbpm7v+hzYt+h7AXS87ICz+fsCda/R9V1ArJcdib3vLRvcRfUW/yD8fWFbmuwDGua4T1wfZdyhLg/R7lkQTWqNv9c4fuutlJ4fbPv/YvK6noeV7lNhbEvuO0z2NFxPExKj2nGCt8pQg/S6Aca7fiN8G2XcofM+SzI21Rt/+B0varyiYQAAA
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="78" height="53">
+  <properties>
+   <property name="underPlayer" value="1"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <layer name="transparenciesBelow" width="78" height="53" opacity="0.5">
+  <properties>
+   <property name="transparent" value="1"/>
+   <property name="underPlayer" value="1"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZN04DURhF4SfPED0NmQ24IvRE05HZigOhI9MQtkFmD4Q9EUqOhFxZSEZIjIc5n3T02n9uOyFIkiRJkpQ9p4UQzuicLgppX5Mdj2z1RM/04m4te2WrN3qnD3dr2VgUwjhN0GSU9jWSJEmSJEn5U4lDqFKN6nHa10hSPpTSPiCjSj9IkiRJ0u9ExRBi6qBO6qJu6qHeYtrXta8ptpmmGZqlOZqnMi18s1tf8lU/DdAgDdEwjdBo8rffkIYK21SpRnXapC3aph1aTJrfRku0TCu0Smu0Ths52O2SLa7omm7olu7onh5oN2l+G+3RPh3QIR3RMZ3kYDfpP/Jfj9rNJ2wP9MyYQAAA
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="78" height="53">
+  <properties>
+   <property name="underPlayer" value="1"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZQU4CQRCF4QoSZj3cAjUROQkXkiV6EZC9hJ1eZAZOoCuBRGHh27qjGdI13fxf8vaVl0l1ptsMAAAAANI265jNO95TpKdSZ3UGvT0pE+8hEvSmLL2HAAAAja1uvCfwd87/wKd6+7ry7nL5HwAApOnU85t7v/9OPb9zPednXX0Pyquy6HpPk45KXdXKWtnQGwBEMc7wHI5hSm8AkJTnntlLz3uK9Lyrsw96C/atzrb0FmxQmN0W3lO0w09p9qsclGPpPU06HvpmQ+VRGfW9p0FbxLq332nv7zPa/bHu7e+09+/Z/Wix0Leepjsnl7fG0Leepjsn17dGXM4f5jq5eZhAAAA=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="78" height="53">
+  <properties>
+   <property name="underPlayer" value="0"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3bZ3AUZRzH8ecuR5I7EIaSoMIbqsIbgcQyQ0dnbCjCG8sMUpQ00Blqom+sEPSdvRDSdIaagM5YKfrO3iAVSHIhAZ2xgOWNKMTvTe6Zezz2uexestnd5H4zH54ct3t3z/82zz63T06IwZ2HMoR4GGuQh3wUoBBFWIt1GbHtP/MJ8bnPuddrNoUownI8aMPjv0FN3sQOlGEnylGBSlShWqnbRWp2yQN1szvfUZPv8QOO4TjqUI8GNKJJqVuOX4hcv3Ov1y0ZkilEOjKQiSBCGIphuALDM2PbF1KzolTdxGxqMgdzMQ/zsQALsQg34xalbhXUrDJVN7GemmzARmzCZmxBMUrwGB5X6lZPzRpcXLcvGHu/xFf42kL7Db5NMG7HP+4uarIbe7AX+7AfNajFARxU6vYC+7zo4vNCV+S18b424wR88Jto0xCwcDy0UJNWtCGMdpxGBzpxBmeVupmdh8zELOQg11rXPZHRQSHGIAvZGIsrcRWuxjiMD8a2181DsnivspX3Kx8FIjaPGmi5nZrcgTuxGHfhbizBPViKZUrdjOYhqwNCnKSWp9AWrak83uIzEqNs6ktfRI5jVfSx2n/5+CdvP0FNnsRTeBrP4FlsxTaUYrtSN6N5yOvUbST/N8rffdxFIo+3+NyK22zqc18mMk420pcmzfj3HjV5Hx/gQ3yEj3EIh3EER5W66eYhxTxPiYvPF2ZjdLwZ5Wdq8gt+xW84h/P4HX/gT/yl1M3t85D+yoSQEBMxCZMxBVNxDa7FNEwPxbbXzUNW8Lu6EqsC3eNdKv+Pbh7yCrV6Fa8Fusc7t+V+PODg8zt9PaSnzwNujdnrIffiPhueX34e0M373RqvXQ9xy7w7dT3EXOJ/38zOQ9oQtucleTJmr4dksU22C8bpvj6PdkX+SaJfXlmXsSvyvG2WjNPzEKcjz9tmyVhdl/kbF0xsV8Nj1uIADhq07+BdD5+PrM5DruPYnJHg+JTnnQ4esxNncNag/RE/mXheuV5q1/wx2Zidh0zARKyhZnku+r2ehulOv4gEcdv7LbMCK51+EQmiG6d0rd1x6/sYH904pWvtyg6UKbfd8rmrp4xLE2J8Ws+tLlu5bxtKsR3P4Xll+3M4b3sv7M9S+rQs7fLbPbW6/Q/x82EcwVF8gk+V+6dwzpnq885xZJQmX2xdqzl6DlXXucJoQavB7UjCyv7tLjoH253h/ti61ojomKWuc0XWV0djjMHtSLKV/cdaHPPs+ju3/kqy61qTMLkX+w/WOH39P5VUkolX5re6LA8wTgdS66pW8xI1ejnQ/+uqq7Da5ucoTWcOnt67x7B6nUwef7rWS8dlQ7DnbXSxep1MHn+61o7j8gL9+wf/4iIuoSvS55AQPvhD+n2HcF86MpCJIEIYimEJ9nM6uvV5K5lB/2ZiFnKQi+txA27ETQn6P5v75mAu5mE+FmAhFrm4brr1eSvJo3/5KEAhirAW6/AIHk3Q//XctwEbsQmbsQXFKHFx3foiZdH+ldNWoBJVqMZbeDtB/3dx327swV7sw37UoHYA1c3oc8exaP/qaOvRgEY0oRkncBKnlFamhZ9b0YYw2nEaHehMom5Wvx+QbDvQYvZ7Ab1tU0llMMXt64a9je7zvDxPyO8FyNuylfvJ657x3x/QrRt6+bq8HdmJcqdfhAdzHHU2Pv5/V6ChIphAAAA=
+  </data>
+ </layer>
+ <layer name="transparencies" width="78" height="53" opacity="0.5">
+  <properties>
+   <property name="transparent" value="1"/>
+   <property name="underPlayer" value="0"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DMQ0AAAgDsJnBv0Us7OAhaZMmAAAAAAAAAAAAAFyYMgAAAAAAfLLgh5i3mEAAAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="78" height="53">
+  <properties>
+   <property name="underPlayer" value="0"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UVZCXZRiH4VVBQBpRSlQ6DCQFRemS7k6VLmkwkNilG5VOi7bo7u5WDELBIEVRKS+O9JiZdec/vvfMdfrN8/4OvqioUCgUCoVCoVAoFAqFQqFQKBQKhUKhUOifKiaNiqpEZapQlWpUpwY1qUVt6lCXeknj+uq4r58N+jOAgUQTwyAGM4ShDGM4Ixj5r93G/E83XOrdy1jOClayitWsYS3rWM8GNrKJzWxhK9vYzg52sovd7GEv+9jPAQ5yiMMcieDNz7v9Ahe5xGWu8CtX+Y3fucYf/MlfXOcGN7nF7TsbJIuKuod7uY94xOd+EpCQRDxAYpIki+vX331Z3J6VbGQnBznJRW6e4Eme4mny8Ax5yUd+ClCQQjxLYYrwHM9TlBd4kWIUpwQlI3i3+m5vQEMa0ZgmNKUZzWnBy7zCq7SkFa1pQ1va0Z4OdKQTnXmNLnSlG93pQU96RfBuo9w+mjGMZRzjeYd3eY8JTGQSk5nCVKYxnRnMZBazeZ8P+JCP+Jg5zGUe81nAwgjebbPbt7CVbWxnBzvZxW72sJd97OcABznEYY5wlGMc50u+4gRf8w3f8h0nOcVpzkTwbtfdfoOb3OL2nbck93/nXu4jHvG5nwQkJBEPkJgkJCUZyUlBSlLxIKl5iIdJQ1rSkT55XL/+7svr9nzkpwAFKcSzFKYIz/E8RXmBFylGcUpQklKUpgxlKUd5KvASFalEZapQlWoRvFsrt7emDW1pR3s60JFOdOY1utCVbnSnBz3pRW/68Dpv8CZv0Ze36Ud/BjCQaGIieLepbp/GdGYwk1nM5n0+4EM+4mPmMJd5zGcBC1nEJ3zKZ3zOFyxmCUtZxnJWsJJVEbzbQbcf4jBHOMoxjvMlX3GCr/mGb/mOk5ziNGf4nh84yzl+5Cd+5hfOc4GLXOIyV2Jxt1zkjr3PRyVK4f9OYpKQlGQkJwUpScWDpOYhHiYNaUlHejLwCBl5lMd4nExkJgtZyUZ2cpAzRey9qynNYu/zUcXcXpwSlKQUpSlDWcpRngq8REUqUZkqVKUa1alBTWpRmzrUpR71aUBDGtGYJrG4W2zX3e096EkvetOH13mDN3mLvrxNP/ozgIFEE8MgBjOEoQxjOCMYyShGM4axjGN8BO82z+3zWcBCFvEJn/IZn/MFi1nCUpaxnBWsZBWrWcNa1rGeDWxkE5vZwla2sZ0dEbzbSbef4jRn+J4fOMs5fuQnfuYXznOBi1ziMlf4lav8xu9c4w/+5C+uc4Ob3OL2nc1SxvXr7740bk9LOtKTgUfIyKM8xuNkIjNZyEo2spODnOQiN0/wJE/xNHl4hrzkIz8FKEihCN6tsturUJVqVKcGNalFbepQl3rUpwENaURjmtCUZjSnBS/zCq/Skla0pg1taUf7CN5tgNsHEk0MgxjMEIYyjOGMYCSjGM0YxjKO8bzDu7zHBCYyiclMYSrTmM4MZjIrgndb7vYVrGQVq1nDWtaxng1sZBOb2cJWtrGdHexkF7vZw172sZ8DHOQQhznCUY5F8G6hUCgUCoVCoVDov+9vAaTLe5hAAAA=
+  </data>
+ </layer>
+ <layer name="Tile Layer 5" width="78" height="53">
+  <properties>
+   <property name="underPlayer" value="0"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XNzYFUBRG4ds8r5R1sjnIOlknm4Osk/XCHGSdbCqyTjYGewine561v7V2f9dfnZuSJEmSJEmSJEmSJOk/as2k1Ebt1JHJ9WvyxyxbzdE8Lbhb2CFbHdExnbhb2CNbPdEzvbhbWGlBSmVUThUFuX5N/uhlqz7qpwF3C1tlqzVapw13C7tkqyu6pht3C/tkqy/6ph93C6vNplRH9dSQzfVr8scoW43ROE24W9gmW23RNu24W1gjt24TNVOLd2/YJFtN0TTNuFvYLlvt0T4duFvYLVvd0T09uFtYITdbERVTifdbWCdbdVE39bhb2CJbLdEyrbhb2ClbndE5Xbhb2CtbvdE7fbhbWCV/hCqqphr/C2GDbDVEwzTibpIk/Wm/ITughphAAAA=
+  </data>
+ </layer>
+ <layer name="Tile Layer 6" width="78" height="53">
+  <properties>
+   <property name="underPlayer" value="0"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAB8A4705oqYQAAA
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="78" height="53">
+  <object name="barrel" x="1155" y="673" width="91" height="44"/>
+  <object name="barrel" x="1660" y="1180" width="89" height="39"/>
+ </objectgroup>
+</map>
